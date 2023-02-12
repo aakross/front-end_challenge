@@ -1,8 +1,11 @@
 import { useState } from "react";
 import cilhouse from '../images/cil_house.svg'
 import facebook from '../images/facebook.svg'
+import facebook1 from '../images/facebook1.svg'
 import gorjeo from '../images/gorjeo.svg'
+import gorjeo1 from '../images/gorjeo1.svg'
 import instagram from '../images/instagram.svg'
+import Vector from '../images/Vector.svg'
 import whats from '../images/WhatsApp_logo_1.png'
 function Footer() {
     return (
@@ -13,9 +16,9 @@ function Footer() {
                         <img src={cilhouse} alt="" className="w-12 h-12 md:w-[5rem] md:h-[5rem]" />
                         <div className="text-white text-sm md:w-44">It is a long established fact that a reader will be distracted by the readable content of a page whenthers. </div>
                         <div className="flex justify-between py-4">
-                            <img src={gorjeo} alt="" className="w-10  h-8" />
-                            <img src={facebook} alt="" className="w-10  h-8" />
-                            <img src={instagram} alt="" className="w-10  h-8" />
+                            <img src={gorjeo1} alt="" className="w-10  h-8" />
+                            <img src={facebook1} alt="" className="w-10  h-8" />
+                            <img src={Vector} alt="" className="w-10  h-8" />
                         </div>
                     </div>
 
